@@ -10,3 +10,6 @@ def UpdateString(string1, string2, j):
     newstring = ""
     newstring = newstring.join(list1)
     PrintOutput(newstring)
+def FindWordCount(a, str1):
+    countofstr1 = a.count(str1)
+    PrintOutput(countofstr1)
