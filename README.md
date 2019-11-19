@@ -29,3 +29,6 @@ def Intersection(list1, list2):
     list3 = []
     list3 = list1 + list2
     newlist = []
+    for i in list3:
+        if FindWordCount(list3, i) > 1:
+            newlist.append(i)
