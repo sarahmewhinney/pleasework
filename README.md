@@ -17,3 +17,7 @@ def ScoreFinder(players, scores, name):
     newindex = players.index(name)
     finalscore = scores[newindex]
     print(name, "got a score of", finalscore)
+def Union(list1, list2):
+    list3 = []
+    list3 = list1 + list2
+    newlist = []
