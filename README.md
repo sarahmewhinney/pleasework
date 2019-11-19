@@ -13,3 +13,7 @@ def UpdateString(string1, string2, j):
 def FindWordCount(a, str1):
     countofstr1 = a.count(str1)
     PrintOutput(countofstr1)
+def ScoreFinder(players, scores, name):
+    newindex = players.index(name)
+    finalscore = scores[newindex]
+    print(name, "got a score of", finalscore)
