@@ -4,6 +4,11 @@
 #Utility
 def PrintOutput(word):
     print("OUTPUT>", word)
+def LoadFile(filename):
+    with open(filename, "r+") as file:
+        file = [file]
+        for line in file:
+            print(line)
 def UpdateString(string1, string2, j):
     list1 = list(string1)
     list1[j] = string2
